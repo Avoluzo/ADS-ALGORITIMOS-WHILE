@@ -10,7 +10,7 @@ public class Exercico3 {
         int nota2 = 0;
         int nota3 = 0;
 
-        System.out.println("Digite o codigo : ");
+        System.out.println("Digite o codigo do aluno : ");
         int code = scanner.nextInt();
 
         while (code == 0) ;
@@ -24,11 +24,10 @@ public class Exercico3 {
             nota3 = scanner.nextInt();
             int media = (nota + nota2 + nota3 / 3);
             System.out.println("sua média é de : " + media);
+            System.out.println("Digite o codigo do aluno : ");
+            code = scanner.nextInt();
+
         }
-
-        System.out.println("digite seu codigo");
-        code = scanner.nextInt();
-
 
     }
 
