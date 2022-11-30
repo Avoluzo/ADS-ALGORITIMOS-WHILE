@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercico3 {
+public class Exercicio3 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -13,8 +13,7 @@ public class Exercico3 {
         System.out.println("Digite o codigo do aluno : ");
         int code = scanner.nextInt();
 
-        while (code == 0) ;
-        {
+        while (code != 0) {
 
             System.out.println("Digite sua nota: ");
             nota = scanner.nextInt();
